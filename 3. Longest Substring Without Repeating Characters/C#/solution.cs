@@ -7,7 +7,7 @@ public class Solution {
             count = 0;
             charMap = new BitArray(255, false);
     }
-		
+	
         
     public void set(char c, bool f){
                 // (f ^ charMap[c])
